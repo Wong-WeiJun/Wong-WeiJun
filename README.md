@@ -19,8 +19,6 @@ Passionate Student from Malaysia 🇲🇾
 
 ## 🚀 Featured Projects
 
----
-
 ### [AWSJobRunner](https://github.com/Wong-WeiJun/AWSJobRunner)
 > **A robust automation utility to trigger and manage AWS Batch/Lambda jobs via CLI.**
 * **Tech Stack:** ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white) ![Boto3](https://img.shields.io/badge/Boto3-orange?style=flat-square)
