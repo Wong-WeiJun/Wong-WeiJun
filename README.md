@@ -6,7 +6,7 @@ Passionate Student from Malaysia 🇲🇾
 
 **About me**
 
-- 🎓️ Computer Science Student at [University of Wollongong Malaysia](https://www.uow.edu.my/)
+- 🎓️ Computer Science Student at [University of Wollongong](https://www.uow.edu.au/)
 
 - ❤️ I love writing Python, and am focusing on learning Platform + Automation Engineering
 
@@ -35,20 +35,19 @@ Passionate Student from Malaysia 🇲🇾
 
 ---
 
-### [YouTubeLikedVidsToMP3](https://github.com/Wong-WeiJun/YouTubeLikedVidsToMP3)
-> **Automation script that syncs and converts your YouTube "Liked" library to local high-quality MP3s.**
-* **Tech Stack:** ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat-square&logo=youtube&logoColor=white) 
-* **Key Feature:** Automates the fetching and conversion process using YouTube API.
-* **Outcome:** Created a self-maintaining local music library with zero manual effort.
-
+### [Driftwatch](https://github.com/Wong-WeiJun/DriftWatch)
+> **A cloud infrastructure drift detection platform that scans live AWS environments against expected state.**
+* **Tech Stack:** ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+* **Key Feature:** FastAPI + boto3 scanners audit EC2, S3, Security Groups, IAM, and RDS for configuration drift, backed by Terraform modules and DynamoDB with a composite key pattern for tracking scan history.
+* **Outcome:** Deployed end-to-end on ECS Fargate (ap-southeast-2) with GitHub Actions CI/CD, demonstrating production-style cloud security tooling.
+  
 ---
 
-### [Multilingual AI News Analyzer](https://github.com/Wong-WeiJun/AI-Powered_News_Detector) 
-> **Hackathon Project (2025) | A serverless RAG pipeline for high-reasoning news analysis.**
-* **Tech Stack:** ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white) ![Claude AI](https://img.shields.io/badge/Claude%203.7-D97757?style=flat-square&logo=anthropic&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) ![Bedrock](https://img.shields.io/badge/Bedrock-5C2D91?style=flat-square&logo=amazon-aws&logoColor=white)
-* **Key Feature:** Architected a serverless **RAG pipeline** using **AWS Bedrock** and **Claude 3.7 Sonnet** for deep-reasoning document retrieval and real-time web search via Tavily.
-* **Architecture:** Deployed a global frontend using **S3 + CloudFront** integrated with a custom browser extension for seamless multilingual automation.
-* **Outcome:** Provides automated, real-time verification of news authenticity across different languages with enterprise-grade AI.
+### [ShiftMate](https://github.com/Wong-WeiJun/VolunteerShiftScheduler)
+> **Hackathon Project (MLH Global Hack Week) | A volunteer shift scheduling platform with automated calendar invites.**
+* **Tech Stack:** ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+* **Key Feature:** Built on a TanStack Router/Query and shadcn/ui frontend with a FastAPI + SQLModel backend, automating volunteer-organizer shift matching and sending confirmation emails with `.ics` calendar attachments via Resend.
+* **Outcome:** Shipped a fully deployed app (Vercel + Render + Neon) in a hackathon timeframe, showing rapid full-stack execution under time pressure.
 
 ---
 
