@@ -14,6 +14,8 @@ Passionate Student from Malaysia 🇲🇾
 
 - 😴 Would like to get some more sleep :))
 
+- 🏃‍♂ Fitness is my lifestyle
+
 
 <br />
 
