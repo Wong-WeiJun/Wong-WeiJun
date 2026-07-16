@@ -10,7 +10,7 @@ Passionate Student from Malaysia 🇲🇾
 
 - ❤️ I love writing Python, and am focusing on learning Platform + Automation Engineering
 
-- 👨‍🏫 am teaching tuition part-time
+- 👨‍🏫 enjoyed teaching tuition part-time
 
 - 😴 Would like to get some more sleep :))
 
