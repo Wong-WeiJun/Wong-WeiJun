@@ -57,7 +57,7 @@ Passionate Student from Malaysia 🇲🇾
 
 <br />
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wong-WeiJun&layout=compact&theme=vision-friendly-dark" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wong-WeiJun&layout=compact&theme=vision-friendly-dark&cache_seconds=86400" alt="Top Langs" />
 </p>
 <br />
 
