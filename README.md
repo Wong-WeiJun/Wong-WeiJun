@@ -66,6 +66,7 @@ Computer Science student from Malaysia 🇲🇾, passionate about cloud infrastr
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Wong-WeiJun&show_icons=true&hide_border=true&count_private=true&theme=shades-of-purple&icon_color=fad000" alt="Wong-WeiJun's GitHub Stats">
+<br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Wong-WeiJun&count_private=true&theme=radical" alt="Wong-WeiJun's GitHub Streak">
 
