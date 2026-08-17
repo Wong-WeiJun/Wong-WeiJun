@@ -2,7 +2,7 @@
 
 <br />
 
-Passionate Student from Malaysia 🇲🇾
+Computer Science student from Malaysia 🇲🇾, passionate about cloud infrastructure, automation, and platform engineering.
 
 **About me**
 
