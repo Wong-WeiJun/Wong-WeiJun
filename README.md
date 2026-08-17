@@ -16,6 +16,8 @@ Passionate Student from Malaysia 🇲🇾
 
 - 🏃‍♂ Fitness is my lifestyle
 
+- 📘 Check out my blog ![Here](https://www.wongweijun.me)
+
 
 <br />
 
