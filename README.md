@@ -58,11 +58,20 @@ Passionate Student from Malaysia 🇲🇾
 
 
 <br />
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wong-WeiJun&layout=compact&theme=vision-friendly-dark&cache_seconds=86400" alt="Top Langs" />
-</p>
-<br />
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wong-WeiJun&layout=compact&theme=vision-friendly-dark&cache_seconds=86400" alt="Top Languages" />
+</p>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Wong-WeiJun&show_icons=true&hide_border=true&count_private=true&theme=shades-of-purple&icon_color=fad000" alt="Wong-WeiJun's GitHub Stats">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Wong-WeiJun&count_private=true&theme=radical" alt="Wong-WeiJun's GitHub Streak">
+
+</div>
+
+<br />
 
 
 <a href="https://www.facebook.com/weijun.wong.16/">
