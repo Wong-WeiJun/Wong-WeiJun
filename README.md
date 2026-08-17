@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/Wong-WeiJun"><img width="80%" alt="Hello, I'm Wong Wei Jun. A passionate CS student" src="./assets/header.png" /></a></p>
+<p align="center"><a href="https://www.wongweijun.me"><img width="80%" alt="Hello, I'm Wong Wei Jun. A passionate CS student" src="./assets/header.png" /></a></p>
 
 <br />
 
