@@ -69,13 +69,13 @@ weijun@omarchy ~> git log --stat
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/streak.svg">
-  <img alt="GitHub streak stats" src="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/streak-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/streak.svg?v=1">
+  <img alt="GitHub streak stats" src="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/streak-light.svg?v=1">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/github-contribution-grid-snake-dark.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/github-contribution-grid-snake-dark.svg?v=1">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/github-contribution-grid-snake.svg?v=1">
 </picture>
 
 </div>
