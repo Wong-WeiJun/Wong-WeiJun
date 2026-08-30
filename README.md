@@ -19,7 +19,7 @@
 </div>
 
 <a href="https://www.wongweijun.me">
-<img alt="cs student · cloud & platform engineering · university of wollongong · self-hosts a k3s homelab · arch linux (omarchy) + neovim (lazyvim)" src="assets/ticker.svg" width="100%">
+<img alt="ticker" src="assets/ticker.svg" width="100%">
 </a>
 
 <a href="https://www.wongweijun.me">
