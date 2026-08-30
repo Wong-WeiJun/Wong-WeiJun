@@ -10,7 +10,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Arch_Linux_(Omarchy)-1E1E2E?style=flat-square&logo=archlinux&logoColor=CBA6F7" />
   <img src="https://img.shields.io/badge/Neovim_(LazyVim)-1E1E2E?style=flat-square&logo=neovim&logoColor=CBA6F7" />
-  <img src="https://img.shields.io/badge/AWS-1E1E2E?style=flat-square&logo=amazonaws&logoColor=CBA6F7" />
+  <img src="https://custom-icon-badges.demolab.com/badge/AWS-1E1E2E?style=flat-square&logo=aws&logoColor=CBA6F7" />
   <img src="https://img.shields.io/badge/Homelab_(k3s)-1E1E2E?style=flat-square&logo=kubernetes&logoColor=CBA6F7" />
   <img src="https://img.shields.io/badge/Claude_Code-1E1E2E?style=flat-square&logo=claude&logoColor=CBA6F7" />
   <img src="https://img.shields.io/badge/Terraform-1E1E2E?style=flat-square&logo=terraform&logoColor=CBA6F7" />
@@ -21,25 +21,6 @@
 <img alt="cs student · cloud & platform engineering · university of wollongong · self-hosts a k3s homelab · arch linux (omarchy) + neovim (lazyvim)" src="assets/ticker.svg" width="100%">
 
 <img alt="terminal boot sequence: Omarchy session boot, tty login as weijun, then a fastfetch panel with host details and live GitHub stats" src="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/terminal.gif" width="100%">
-
-<br />
-
-Computer Science student from Malaysia 🇲🇾, passionate about cloud infrastructure, automation, and platform engineering.
-
-**About me**
-
-- 🎓️ Computer Science Student at [University of Wollongong](https://www.uow.edu.au/)
-
-- ❤️ I love writing Python, and am focusing on learning Platform + Automation Engineering
-
-- 👨‍🏫 Previously taught tuition part-time
-
-- 😴 Would like to get some more sleep :))
-
-- 🏃‍♂ Fitness is my lifestyle
-
-- 📘 Check out my [personal blog](https://www.wongweijun.me)
-
 
 <br />
 
