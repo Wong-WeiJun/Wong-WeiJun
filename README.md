@@ -1,5 +1,7 @@
 <p align="center"><a href="https://www.wongweijun.me"><img width="80%" alt="Hello, I'm Wong Wei Jun. A passionate CS student" src="./assets/header.png" /></a></p>
 
+<img alt="terminal boot sequence: Omarchy session boot, tty login as weijun, then a fastfetch panel with host details and live GitHub stats" src="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/terminal.gif" width="100%">
+
 <br />
 
 Computer Science student from Malaysia 🇲🇾, passionate about cloud infrastructure, automation, and platform engineering.
@@ -62,7 +64,15 @@ Computer Science student from Malaysia 🇲🇾, passionate about cloud infrastr
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Wong-WeiJun&count_private=true&theme=radical" alt="Wong-WeiJun's GitHub Streak">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/streak.svg">
+  <img alt="GitHub streak stats" src="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/streak-light.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/github-contribution-grid-snake-dark.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/github-contribution-grid-snake.svg">
+</picture>
 
 </div>
 
