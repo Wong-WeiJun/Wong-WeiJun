@@ -27,7 +27,7 @@ WIDTH = 1000
 HEIGHT = 560
 PADDING = 15
 HOLD_SHORT = 5
-HOLD_LONG = 130
+HOLD_LONG = 110
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ARCH_LOGO_SOURCE = os.path.join(REPO_ROOT, "assets", "arch.txt")
@@ -87,7 +87,9 @@ def boot_screen(terminal):
 def login_screen(terminal, stamp):
     terminal.clear_frame()
     terminal.toggle_show_cursor(False)
-    terminal.gen_text("%sArch Linux (Omarchy) 6.12 (tty1)%s" % (BLUE, RESET), 1, count=HOLD_SHORT)
+    terminal.gen_text(
+        "%sArch Linux (Omarchy) 6.12 (tty1)%s" % (BLUE, RESET), 1, count=HOLD_SHORT
+    )
     terminal.gen_text("omarchy login: ", 3, count=HOLD_SHORT)
     terminal.toggle_show_cursor(True)
     terminal.gen_typing_text(USER.lower().replace("wong-", ""), 3, contin=True)
@@ -112,15 +114,17 @@ def fetch_panel(terminal, stats, year):
         field("Cloud:", "AWS"),
         field("Homelab:", "k3s"),
         field("IaC:", "Terraform"),
-        field("AI Pair:", "Claude Code"),
         "",
         "%s GitHub Stats %s" % (BANNER, RESET),
         "----------------",
         field("Rank:", stats.user_rank.level),
         field("Stars:", stats.total_stargazers),
         field("Commits (%s):" % year, stats.total_commits_last_year),
-        field("Pull Requests:", "%s merged of %s"
-              % (stats.total_pull_requests_merged, stats.total_pull_requests_made)),
+        field(
+            "Pull Requests:",
+            "%s merged of %s"
+            % (stats.total_pull_requests_merged, stats.total_pull_requests_made),
+        ),
         field("Contributions:", stats.total_repo_contributions),
         field("Stack:", stack_summary(stats.languages_sorted)),
     ]
@@ -145,7 +149,7 @@ def fetch_panel(terminal, stats, year):
     terminal.toggle_show_cursor(True)
     terminal.gen_prompt(terminal.curr_row + 2)
     terminal.gen_typing_text(
-        "%s# built with Claude Code, shipped with Terraform %s" % (SUB, RESET),
+        "%s# Shipped with Terraform %s" % (SUB, RESET),
         terminal.curr_row,
         contin=True,
     )
