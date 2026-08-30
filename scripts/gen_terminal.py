@@ -34,11 +34,11 @@ ARCH_LOGO_SOURCE = os.path.join(REPO_ROOT, "assets", "arch.txt")
 
 ANSI_PATTERN = re.compile(r"\x1b\[[0-9;]*m")
 
-MAUVE = "\x1b[95m"
-BLUE = "\x1b[94m"
+MAUVE = "\x1b[94m"
+BLUE = "\x1b[96m"
 TEXT = "\x1b[97m"
-SUB = "\x1b[34m"
-BANNER = "\x1b[30;105m"
+SUB = "\x1b[36m"
+BANNER = "\x1b[30;104m"
 RESET = "\x1b[0m"
 
 DETAILS_COLUMN = 42

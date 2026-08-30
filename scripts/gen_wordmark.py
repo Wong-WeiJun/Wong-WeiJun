@@ -26,10 +26,8 @@ from xml.sax.saxutils import escape
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(REPO_ROOT, "assets")
 
-DARK_PURPLE = "#CBA6F7"  # Catppuccin Mocha "Mauve" -- matches header.png / terminal.gif
-LIGHT_PURPLE = (
-    "#8839EF"  # Catppuccin Latte "Mauve" -- same family, tuned for light backgrounds
-)
+DARK_PURPLE = "#89B4FA"  # Catppuccin Mocha Blue
+LIGHT_PURPLE = "#1E66F5"  # Catppuccin Latte Blue
 
 FONT_SIZE = 10.0
 CHAR_WIDTH = 6.0
@@ -47,12 +45,14 @@ TICKER_WIDTH = 900
 TICKER_HEIGHT = 46
 TICKER_FONT_SIZE = 22.0
 TICKER_ADVANCE = 13.2
-TICKER_SEPARATOR = "  •  "
-TICKER_INK = "#CDD6F4"  # Catppuccin Text
-TICKER_GROUND = "#11111B"  # Catppuccin Crust
-TICKER_EDGE = "#313244"  # Catppuccin Surface0
-TICKER_MID = "#DDB6F2"  # lighter mauve, for the near-glow ring
-TICKER_BLOOM = "#CBA6F7"  # Catppuccin Mauve
+TICKER_SEPARATOR = " • "
+
+TICKER_INK = "#CDD6F4"  # Catppuccin Mocha Text
+TICKER_GROUND = "#11111B"  # Catppuccin Mocha Crust
+TICKER_EDGE = "#313244"  # Catppuccin Mocha Surface0
+TICKER_MID = "#74C7EC"  # Catppuccin Mocha Sapphire — near-glow ring
+TICKER_BLOOM = "#89B4FA"  # Catppuccin Mocha Blue — outer glow
+
 DOT_PITCH = 3.0
 DOT_RADIUS = 0.8
 FADE_WIDTH = 38
