@@ -40,7 +40,7 @@ TICKER_MESSAGES = [
     "2nd Year CS Student",
     "Cloud & Platform Engineering",
     "University of Wollongong",
-    "arch linux (omarchy) + neovim (lazyvim)",
+    "Arch Linux (Omarchy) + Neovim (lazyvim)",
 ]
 
 TICKER_WIDTH = 900
