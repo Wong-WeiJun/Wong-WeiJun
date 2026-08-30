@@ -38,7 +38,7 @@ TICKER_MESSAGES = [
     "2nd Year CS Student",
     "Cloud & Platform Engineering",
     "University of Wollongong",
-    "Arch Linux (Omarchy) + Neovim (lazyvim)",
+    "Certified AWS Solutions Architect",
 ]
 
 TICKER_WIDTH = 900
