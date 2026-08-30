@@ -23,7 +23,7 @@
 <img alt="terminal boot sequence: Omarchy session boot, tty login as weijun, then a fastfetch panel with host details and live GitHub stats" src="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/terminal.gif?v=1" width="100%">
 
 
-## 🚀 Featured Projects
+## Featured Projects (˶˃ ᵕ ˂˶)
 
 ### [AWSJobRunner](https://github.com/Wong-WeiJun/AWSJobRunner)
 > **A robust automation utility to trigger and manage AWS Batch/Lambda jobs via CLI.**
