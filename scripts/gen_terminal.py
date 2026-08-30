@@ -34,15 +34,20 @@ ARCH_LOGO_SOURCE = os.path.join(REPO_ROOT, "assets", "arch.txt")
 
 ANSI_PATTERN = re.compile(r"\x1b\[[0-9;]*m")
 
-MAUVE = "\x1b[94m"
-BLUE = "\x1b[96m"
+# GitHub Dark Theme Accent Colors (TrueColor RGB)
+BLUE_LINK = "\x1b[38;2;88;166;255m"  # #58A6FF - GitHub Link Blue
+BLUE_LINK_UNDERLINE = "\x1b[4;38;2;88;166;255m"  # #58A6FF + Underline
+BLUE_BRIGHT = "\x1b[38;2;121;192;255m"  # #79C0FF - Lighter accent blue
+
+MAUVE = BLUE_LINK
+BLUE = BLUE_LINK
 TEXT = "\x1b[97m"
-SUB = "\x1b[36m"
-BANNER = "\x1b[30;104m"
+SUB = "\x1b[38;2;139;148;158m"  # #8B949E - Dim gray/blue comment
+BANNER = "\x1b[30;48;2;88;166;255m"  # Black text on Link Blue bg
 RESET = "\x1b[0m"
 
 DETAILS_COLUMN = 42
-PROMPT = "%sweijun@omarchy%s ~> " % (MAUVE, RESET)
+PROMPT = "%sweijun@omarchy%s ~> " % (BLUE_LINK, RESET)
 
 
 def visible_width(line):
@@ -50,20 +55,14 @@ def visible_width(line):
 
 
 def arch_logo():
-    """The classic Arch Linux mountain, recoloured to match the profile palette.
-
-    Vendored from fastfetch (MIT) at src/logo/ascii/a/arch3.txt. It is plain
-    ASCII, which the latin-1 bitmap font renders without substitution -- the
-    block-glyph Omarchy wordmark does not survive that font, so this variant
-    is used instead.
-    """
+    """The classic Arch Linux mountain, recoloured to match the profile palette."""
     with open(ARCH_LOGO_SOURCE, encoding="utf-8") as handle:
         lines = handle.read().rstrip("\n").split("\n")
-    return [MAUVE + line.replace("$2", "") + RESET for line in lines]
+    return [BLUE_LINK + line.replace("$2", "") + RESET for line in lines]
 
 
 def field(label, value):
-    return "%s%s%s%s%s" % (BLUE, label.ljust(16), TEXT, value, RESET)
+    return "%s%s%s%s%s" % (BLUE_LINK, label.ljust(16), TEXT, value, RESET)
 
 
 def stack_summary(languages_sorted, limit=3):
@@ -75,10 +74,11 @@ def boot_screen(terminal):
     terminal.toggle_show_cursor(False)
     lines = [
         "Starting Omarchy Session Manager ...",
-        "[  %sOK%s  ] Mounted /home/weijun" % (MAUVE, RESET),
-        "[  %sOK%s  ] Started AWS credential agent" % (MAUVE, RESET),
-        "[  %sOK%s  ] Started k3s homelab cluster" % (MAUVE, RESET),
-        "[  %sOK%s  ] Reached target Cloud & Platform Engineering" % (MAUVE, RESET),
+        "[  %sOK%s  ] Mounted /home/weijun" % (BLUE_BRIGHT, RESET),
+        "[  %sOK%s  ] Started AWS credential agent" % (BLUE_BRIGHT, RESET),
+        "[  %sOK%s  ] Started k3s homelab cluster" % (BLUE_BRIGHT, RESET),
+        "[  %sOK%s  ] Reached target Cloud & Platform Engineering"
+        % (BLUE_BRIGHT, RESET),
     ]
     terminal.gen_text(lines, 1, count=12)
     terminal.gen_text("", 6, count=HOLD_SHORT)
@@ -88,7 +88,7 @@ def login_screen(terminal, stamp):
     terminal.clear_frame()
     terminal.toggle_show_cursor(False)
     terminal.gen_text(
-        "%sArch Linux (Omarchy) 6.12 (tty1)%s" % (BLUE, RESET), 1, count=HOLD_SHORT
+        "%sArch Linux (Omarchy) 6.12 (tty1)%s" % (BLUE_LINK, RESET), 1, count=HOLD_SHORT
     )
     terminal.gen_text("omarchy login: ", 3, count=HOLD_SHORT)
     terminal.toggle_show_cursor(True)
