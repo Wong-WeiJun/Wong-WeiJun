@@ -26,8 +26,10 @@ from xml.sax.saxutils import escape
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(REPO_ROOT, "assets")
 
-DARK_PURPLE = "#CBA6F7"   # Catppuccin Mocha "Mauve" -- matches header.png / terminal.gif
-LIGHT_PURPLE = "#8839EF"  # Catppuccin Latte "Mauve" -- same family, tuned for light backgrounds
+DARK_PURPLE = "#CBA6F7"  # Catppuccin Mocha "Mauve" -- matches header.png / terminal.gif
+LIGHT_PURPLE = (
+    "#8839EF"  # Catppuccin Latte "Mauve" -- same family, tuned for light backgrounds
+)
 
 FONT_SIZE = 10.0
 CHAR_WIDTH = 6.0
@@ -35,10 +37,9 @@ LINE_HEIGHT = 10.0
 FONT_STACK = "ui-monospace,'DejaVu Sans Mono','Liberation Mono','Courier New',monospace"
 
 TICKER_MESSAGES = [
-    "cs student",
-    "cloud & platform engineering",
-    "university of wollongong",
-    "self-hosts a k3s homelab",
+    "2nd Year CS Student",
+    "Cloud & Platform Engineering",
+    "University of Wollongong",
     "arch linux (omarchy) + neovim (lazyvim)",
 ]
 
@@ -47,11 +48,11 @@ TICKER_HEIGHT = 46
 TICKER_FONT_SIZE = 22.0
 TICKER_ADVANCE = 13.2
 TICKER_SEPARATOR = "  •  "
-TICKER_INK = "#CDD6F4"     # Catppuccin Text
+TICKER_INK = "#CDD6F4"  # Catppuccin Text
 TICKER_GROUND = "#11111B"  # Catppuccin Crust
-TICKER_EDGE = "#313244"    # Catppuccin Surface0
-TICKER_MID = "#DDB6F2"     # lighter mauve, for the near-glow ring
-TICKER_BLOOM = "#CBA6F7"   # Catppuccin Mauve
+TICKER_EDGE = "#313244"  # Catppuccin Surface0
+TICKER_MID = "#DDB6F2"  # lighter mauve, for the near-glow ring
+TICKER_BLOOM = "#CBA6F7"  # Catppuccin Mauve
 DOT_PITCH = 3.0
 DOT_RADIUS = 0.8
 FADE_WIDTH = 38
@@ -102,8 +103,14 @@ def corner_bars(opens_right, opens_down):
 
 
 GLYPH_BARS = {
-    "═": [(0.0, BAR_Y[0], CHAR_WIDTH, BAR_THICKNESS), (0.0, BAR_Y[1], CHAR_WIDTH, BAR_THICKNESS)],
-    "║": [(BAR_X[0], 0.0, BAR_THICKNESS, LINE_HEIGHT), (BAR_X[1], 0.0, BAR_THICKNESS, LINE_HEIGHT)],
+    "═": [
+        (0.0, BAR_Y[0], CHAR_WIDTH, BAR_THICKNESS),
+        (0.0, BAR_Y[1], CHAR_WIDTH, BAR_THICKNESS),
+    ],
+    "║": [
+        (BAR_X[0], 0.0, BAR_THICKNESS, LINE_HEIGHT),
+        (BAR_X[1], 0.0, BAR_THICKNESS, LINE_HEIGHT),
+    ],
     "╔": corner_bars(True, True),
     "╗": corner_bars(False, True),
     "╚": corner_bars(True, False),
@@ -179,7 +186,8 @@ def build_wordmark(lines, colour, title):
     width = math.ceil(columns * CHAR_WIDTH)
     height = math.ceil(len(lines) * LINE_HEIGHT)
     shapes = "".join(
-        '<rect x="%g" y="%g" width="%g" height="%g"/>' % rect for rect in wordmark_rects(lines)
+        '<rect x="%g" y="%g" width="%g" height="%g"/>' % rect
+        for rect in wordmark_rects(lines)
     )
     return (
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" '
@@ -210,7 +218,8 @@ def build_ticker(messages, title):
 
     runs = "".join(
         '<text x="%g" y="%g" textLength="%g" lengthAdjust="spacingAndGlyphs"'
-        ' xml:space="preserve">%s</text>' % (index * run_width, baseline, run_width, escape(run))
+        ' xml:space="preserve">%s</text>'
+        % (index * run_width, baseline, run_width, escape(run))
         for index in range(copies)
     )
 
