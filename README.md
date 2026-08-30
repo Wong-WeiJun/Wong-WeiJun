@@ -8,19 +8,23 @@
 </a>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Arch_Linux_(Omarchy)-0D1117?style=flat-square&logo=archlinux&logoColor=58A6FF" />
-  <img src="https://img.shields.io/badge/Neovim_(LazyVim)-0D1117?style=flat-square&logo=neovim&logoColor=58A6FF" />
-  <img src="https://custom-icon-badges.demolab.com/badge/AWS-0D1117?style=flat-square&logo=aws&logoColor=58A6FF" />
-  <img src="https://img.shields.io/badge/Homelab_(k3s)-0D1117?style=flat-square&logo=kubernetes&logoColor=58A6FF" />
-  <img src="https://img.shields.io/badge/Claude_Code-0D1117?style=flat-square&logo=claude&logoColor=58A6FF" />
-  <img src="https://img.shields.io/badge/Terraform-0D1117?style=flat-square&logo=terraform&logoColor=58A6FF" />
+  <a href="https://www.wongweijun.me"><img src="https://img.shields.io/badge/Arch_Linux_(Omarchy)-0D1117?style=flat-square&logo=archlinux&logoColor=58A6FF" /></a>
+  <a href="https://www.wongweijun.me"><img src="https://img.shields.io/badge/Neovim_(LazyVim)-0D1117?style=flat-square&logo=neovim&logoColor=58A6FF" /></a>
+  <a href="https://www.wongweijun.me"><img src="https://custom-icon-badges.demolab.com/badge/AWS-0D1117?style=flat-square&logo=aws&logoColor=58A6FF" /></a>
+  <a href="https://www.wongweijun.me"><img src="https://img.shields.io/badge/Homelab_(k3s)-0D1117?style=flat-square&logo=kubernetes&logoColor=58A6FF" /></a>
+  <a href="https://www.wongweijun.me"><img src="https://img.shields.io/badge/Claude_Code-0D1117?style=flat-square&logo=claude&logoColor=58A6FF" /></a>
+  <a href="https://www.wongweijun.me"><img src="https://img.shields.io/badge/Terraform-0D1117?style=flat-square&logo=terraform&logoColor=58A6FF" /></a>
 </p>
 
 </div>
 
+<a href="https://www.wongweijun.me">
 <img alt="cs student · cloud & platform engineering · university of wollongong · self-hosts a k3s homelab · arch linux (omarchy) + neovim (lazyvim)" src="assets/ticker.svg" width="100%">
+</a>
 
+<a href="https://www.wongweijun.me">
 <img alt="terminal boot sequence: Omarchy session boot, tty login as weijun, then a fastfetch panel with host details and live GitHub stats" src="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/terminal.gif?v=1" width="100%">
+</a>
 
 
 ## Featured Projects (˶˃ ᵕ ˂˶)
