@@ -1,4 +1,24 @@
-<p align="center"><a href="https://www.wongweijun.me"><img width="80%" alt="Hello, I'm Wong Wei Jun. A passionate CS student" src="./assets/header.png" /></a></p>
+<div align="center">
+
+<a href="https://www.wongweijun.me">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.svg">
+  <img alt="WEI JUN WONG" src="assets/wordmark-light.svg" width="480">
+</picture>
+</a>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Arch_Linux_(Omarchy)-1E1E2E?style=flat-square&logo=archlinux&logoColor=CBA6F7" />
+  <img src="https://img.shields.io/badge/Neovim_(LazyVim)-1E1E2E?style=flat-square&logo=neovim&logoColor=CBA6F7" />
+  <img src="https://img.shields.io/badge/AWS-1E1E2E?style=flat-square&logo=amazonaws&logoColor=CBA6F7" />
+  <img src="https://img.shields.io/badge/Homelab_(k3s)-1E1E2E?style=flat-square&logo=kubernetes&logoColor=CBA6F7" />
+  <img src="https://img.shields.io/badge/Claude_Code-1E1E2E?style=flat-square&logo=claude&logoColor=CBA6F7" />
+  <img src="https://img.shields.io/badge/Terraform-1E1E2E?style=flat-square&logo=terraform&logoColor=CBA6F7" />
+</p>
+
+</div>
+
+<img alt="cs student · cloud & platform engineering · university of wollongong · self-hosts a k3s homelab · arch linux (omarchy) + neovim (lazyvim)" src="assets/ticker.svg" width="100%">
 
 <img alt="terminal boot sequence: Omarchy session boot, tty login as weijun, then a fastfetch panel with host details and live GitHub stats" src="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/terminal.gif" width="100%">
 
@@ -61,6 +81,9 @@ Computer Science student from Malaysia 🇲🇾, passionate about cloud infrastr
 
 <br />
 
+```console
+weijun@omarchy ~> git log --stat
+```
 
 <div align="center">
 
