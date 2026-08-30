@@ -8,12 +8,12 @@
 </a>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Arch_Linux_(Omarchy)-1E1E2E?style=flat-square&logo=archlinux&logoColor=CBA6F7" />
-  <img src="https://img.shields.io/badge/Neovim_(LazyVim)-1E1E2E?style=flat-square&logo=neovim&logoColor=CBA6F7" />
-  <img src="https://custom-icon-badges.demolab.com/badge/AWS-1E1E2E?style=flat-square&logo=aws&logoColor=CBA6F7" />
-  <img src="https://img.shields.io/badge/Homelab_(k3s)-1E1E2E?style=flat-square&logo=kubernetes&logoColor=CBA6F7" />
-  <img src="https://img.shields.io/badge/Claude_Code-1E1E2E?style=flat-square&logo=claude&logoColor=CBA6F7" />
-  <img src="https://img.shields.io/badge/Terraform-1E1E2E?style=flat-square&logo=terraform&logoColor=CBA6F7" />
+  <img src="https://img.shields.io/badge/Arch_Linux_(Omarchy)-0D1117?style=flat-square&logo=archlinux&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/Neovim_(LazyVim)-0D1117?style=flat-square&logo=neovim&logoColor=58A6FF" />
+  <img src="https://custom-icon-badges.demolab.com/badge/AWS-0D1117?style=flat-square&logo=aws&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/Homelab_(k3s)-0D1117?style=flat-square&logo=kubernetes&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/Claude_Code-0D1117?style=flat-square&logo=claude&logoColor=58A6FF" />
+  <img src="https://img.shields.io/badge/Terraform-0D1117?style=flat-square&logo=terraform&logoColor=58A6FF" />
 </p>
 
 </div>
