@@ -62,10 +62,6 @@
 
 <br />
 
-```console
-weijun@omarchy ~> git log --stat
-```
-
 <div align="center">
 
 <picture>
@@ -79,8 +75,6 @@ weijun@omarchy ~> git log --stat
 </picture>
 
 </div>
-
-<br />
 
 
 <a href="https://www.facebook.com/weijun.wong.16/">
