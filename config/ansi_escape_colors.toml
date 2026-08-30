@@ -1,0 +1,24 @@
+[weijun]
+        [weijun.default_colors]
+        fg = "#CDD6F4"
+        bg = "#1E1E2E"
+
+        [weijun.normal_colors]
+        black = "#45475A"
+        red = "#F38BA8"
+        green = "#A6E3A1"
+        yellow = "#F9E2AF"
+        blue = "#89B4FA"
+        magenta = "#CBA6F7"
+        cyan = "#94E2D5"
+        white = "#CDD6F4"
+
+        [weijun.bright_colors]
+        black = "#585B70"
+        red = "#F38BA8"
+        green = "#A6E3A1"
+        yellow = "#F9E2AF"
+        blue = "#89B4FA"
+        magenta = "#DDB6F2"
+        cyan = "#94E2D5"
+        white = "#F5E0DC"
