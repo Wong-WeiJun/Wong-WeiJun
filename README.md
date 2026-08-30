@@ -22,7 +22,6 @@
 
 <img alt="terminal boot sequence: Omarchy session boot, tty login as weijun, then a fastfetch panel with host details and live GitHub stats" src="https://raw.githubusercontent.com/Wong-WeiJun/Wong-WeiJun/output/terminal.gif?v=1" width="100%">
 
-<br />
 
 ## 🚀 Featured Projects
 
