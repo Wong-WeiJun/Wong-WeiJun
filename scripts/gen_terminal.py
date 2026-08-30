@@ -24,7 +24,7 @@ IGNORE_REPOS = ["Wong-WeiJun"]
 TIMEZONE = ZoneInfo("Australia/Sydney")
 
 WIDTH = 1000
-HEIGHT = 560
+HEIGHT = 480
 PADDING = 15
 HOLD_SHORT = 5
 HOLD_LONG = 110
@@ -149,7 +149,8 @@ def fetch_panel(terminal, stats, year):
     terminal.toggle_show_cursor(True)
     terminal.gen_prompt(terminal.curr_row + 2)
     terminal.gen_typing_text(
-        "%s# Shipped with Terraform %s" % (SUB, RESET),
+        "%s# Hello World! Thanks for checking out my profile. I need an Internship, pretty pleaaase %s"
+        % (SUB, RESET),
         terminal.curr_row,
         contin=True,
     )
