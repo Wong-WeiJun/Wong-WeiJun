@@ -38,7 +38,7 @@ TICKER_MESSAGES = [
     "2nd Year CS Student",
     "Cloud & Platform Engineering",
     "University of Wollongong",
-    "Certified AWS Solutions Architect",
+    "Certified AWS Developer + Solutions Architect",
 ]
 
 TICKER_WIDTH = 900
