@@ -47,7 +47,7 @@ BANNER = "\x1b[30;48;2;88;166;255m"  # Black text on Link Blue bg
 RESET = "\x1b[0m"
 
 DETAILS_COLUMN = 42
-PROMPT = "%sweijun@omarchy%s ~> " % (BLUE_LINK, RESET)
+PROMPT = "%sweijun@arhc%s ~> " % (BLUE_LINK, RESET)
 
 
 def visible_width(line):
@@ -73,7 +73,7 @@ def stack_summary(languages_sorted, limit=3):
 def boot_screen(terminal):
     terminal.toggle_show_cursor(False)
     lines = [
-        "Starting Omarchy Session Manager ...",
+        "Starting Arch Linux Session Manager ...",
         "[  %sOK%s  ] Mounted /home/weijun" % (BLUE_BRIGHT, RESET),
         "[  %sOK%s  ] Started AWS credential agent" % (BLUE_BRIGHT, RESET),
         "[  %sOK%s  ] Started k3s homelab cluster" % (BLUE_BRIGHT, RESET),
@@ -88,9 +88,9 @@ def login_screen(terminal, stamp):
     terminal.clear_frame()
     terminal.toggle_show_cursor(False)
     terminal.gen_text(
-        "%sArch Linux (Omarchy) 6.12 (tty1)%s" % (BLUE_LINK, RESET), 1, count=HOLD_SHORT
+        "%sArch Linux 6.12 (tty1)%s" % (BLUE_LINK, RESET), 1, count=HOLD_SHORT
     )
-    terminal.gen_text("omarchy login: ", 3, count=HOLD_SHORT)
+    terminal.gen_text("login: ", 3, count=HOLD_SHORT)
     terminal.toggle_show_cursor(True)
     terminal.gen_typing_text(USER.lower().replace("wong-", ""), 3, contin=True)
     terminal.gen_text("", 4, count=HOLD_SHORT)
@@ -106,9 +106,9 @@ def fetch_panel(terminal, stats, year):
     logo = arch_logo()
 
     details = [
-        "%s weijun@omarchy %s" % (BANNER, RESET),
+        "%s weijun@arch %s" % (BANNER, RESET),
         "----------------",
-        field("OS:", "Arch Linux (Omarchy)"),
+        field("OS:", "Arch Linux"),
         field("Host:", "University of Wollongong"),
         field("Editor:", "Neovim (LazyVim)"),
         field("Cloud:", "AWS"),
